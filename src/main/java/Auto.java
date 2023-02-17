@@ -16,9 +16,9 @@ public class Auto {
             if (asiento.registro == this.registro && asiento.registro  == this.motor.registro){
                 
             } else {
-                return "Las piezas no son originales";
+                return "Auto original";
             }
         }
-        return "Auto original";
+        return "Las piezas no son originales";
     }
 }
